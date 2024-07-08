@@ -1,2 +1,31 @@
-// the `REST Client` extension
-GET http://localhost:5085/
+# the `REST Client` extension is needed
+
+GET http://localhost:5085/todos
+
+###
+POST http://localhost:5085/todos
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Write demo",
+  "dueDate": "2023-12-31",
+  "isCompleted": false
+}
+
+###
+POST http://localhost:5085/todos
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "Write another demo",
+  "dueDate": "2023-12-31",
+  "isCompleted": false
+}
+
+###
+GET http://localhost:5085/todos/2
+
+###
+DELETE http://localhost:5085/todos/2

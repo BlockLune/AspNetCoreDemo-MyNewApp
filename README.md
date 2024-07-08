@@ -19,3 +19,7 @@ Endpoint filter
 Add some validation for example.
 
 Run after the endpoint routing middleware but before the actual handler logic.
+
+## Pt 7
+
+Dependency Injection

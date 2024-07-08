@@ -1,0 +1,2 @@
+// the `REST Client` extension
+GET http://localhost:5085/
